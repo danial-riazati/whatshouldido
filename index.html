@@ -1,14 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Scheduler</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
 </head>
 <body>
-    hello
+    <div id="app">
+        <div id="workDisplay" class="work-display">
+            <div id="previousWork" class="work-navigation">&lt; Previous</div>
+            <div id="currentWork" class="work-info"></div>
+            <div id="nextWork" class="work-navigation">Next &gt;</div>
+        </div>
+        <div id="countdownDisplay" class="countdown-display"></div>
+    </div>
 </body>
 </html>
